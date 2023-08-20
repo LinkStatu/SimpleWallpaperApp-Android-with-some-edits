@@ -11,7 +11,12 @@
         <item name="android:alertDialogTheme">@style/DialogTheme</item>
         <item name="android:alertDialogStyle">@style/DialogTheme</item>
         <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:fontFamily">@font/cairosemibold</item>
         <!--extras-->
         <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="setting_activity" >
+        <item name="android:fontFamily">@font/ps_semi_bold</item>
+        <item name="android:textSize">18sp</item>
     </style>
 </resources>

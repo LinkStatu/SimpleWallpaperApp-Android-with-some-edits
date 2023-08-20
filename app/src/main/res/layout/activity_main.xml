@@ -21,7 +21,7 @@
 
         <fragment
             android:id="@+id/wallsFragment"
-            android:name="com.shubhamgupta16.simplewallpaper.fragments.WallsFragment"
+            android:name="com.link.statu.fragments.WallsFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@id/adView"
@@ -30,7 +30,7 @@
 
         <fragment
             android:id="@+id/categoryFragment"
-            android:name="com.shubhamgupta16.simplewallpaper.fragments.CategoryFragment"
+            android:name="com.link.statu.fragments.CategoryFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@id/adView"
@@ -39,7 +39,7 @@
 
         <fragment
             android:id="@+id/favoriteFragment"
-            android:name="com.shubhamgupta16.simplewallpaper.fragments.WallsFragment"
+            android:name="com.link.statu.fragments.WallsFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@id/adView"

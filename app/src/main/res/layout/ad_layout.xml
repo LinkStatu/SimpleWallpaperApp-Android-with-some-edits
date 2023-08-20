@@ -9,6 +9,7 @@
         android:layout_margin="5dp"
         android:id="@+id/unifiedNativeAd"
         android:layout_width="match_parent"
+        android:background="@color/colorAccent"
         android:layout_height="wrap_content">
 
         <LinearLayout
@@ -28,7 +29,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_marginEnd="20dp"
-                    android:background="@color/colorDullWhite"
+                    android:background="#EC407A"
                     android:contentDescription="@string/button_icon" />
 
                 <LinearLayout
@@ -46,7 +47,7 @@
                         android:id="@+id/ad_advertiser"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/colorTextSecondary" />
+                        android:textColor="@color/colorDullWhite" />
 
                     <RatingBar
                         android:id="@+id/ad_rating"
@@ -62,7 +63,7 @@
             <com.google.android.gms.ads.nativead.MediaView
                 android:id="@+id/ad_media"
                 android:layout_width="match_parent"
-                android:background="@color/colorDullWhite"
+                android:background="@color/colorAccent"
                 android:layout_height="175dp"/>
 
             <TextView
@@ -84,14 +85,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:textColor="@color/colorTextSecondary" />
+                    android:textColor="@color/colorDullWhite" />
 
                 <TextView
                     android:id="@+id/ad_store"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:textColor="@color/colorTextSecondary" />
+                    android:textColor="@color/colorDullWhite" />
 
                 <Button
                     android:id="@+id/ad_call_to_action"

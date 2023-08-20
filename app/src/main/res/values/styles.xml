@@ -11,6 +11,7 @@
         <item name="android:alertDialogTheme">@style/DialogTheme</item>
         <item name="android:alertDialogStyle">@style/DialogTheme</item>
         <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:fontFamily">@font/cairosemibold</item>
     </style>
 
     <!-- Wallpaper Activity Theme. -->
@@ -32,12 +33,18 @@
         <item name="android:windowBackground">@drawable/dialog_card</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:fontFamily">@font/cairosemibold</item>
+    </style>
+    <style name="setting_activity" >
+        <item name="android:fontFamily">@font/ps_semi_bold</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView.ActionBar">
         <item name="searchHintIcon">@null</item>
         <item name="queryBackground">@null</item>
         <item name="searchIcon">@null</item>
+        <item name="android:fontFamily">@font/cairosemibold</item>
     </style>
 
 

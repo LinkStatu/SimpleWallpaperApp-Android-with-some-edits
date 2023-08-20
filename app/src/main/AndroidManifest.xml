@@ -10,7 +10,7 @@
         tools:ignore="ScopedStorage" />
 
     <application
-        android:name="com.shubhamgupta16.simplewallpaper.MainApplication"
+        android:name="com.link.statu.MainApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -25,9 +25,9 @@
 <!--        Your admob ads app id.-->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713" />
+            android:value="@string/Admob_APP_ID" />
 
-        <activity android:name="com.shubhamgupta16.simplewallpaper.activities.SplashActivity"
+        <activity android:name="com.link.statu.activities.SplashActivity"
             android:hardwareAccelerated="true"
             android:screenOrientation="portrait"
             android:exported="true">
@@ -37,21 +37,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.shubhamgupta16.simplewallpaper.activities.SettingsActivity"
+            android:name="com.link.statu.activities.SettingsActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:label="@string/title_activity_settings" />
-        <activity android:name="com.shubhamgupta16.simplewallpaper.activities.MoreWallsActivity"
+        <activity android:name="com.link.statu.activities.MoreWallsActivity"
             android:exported="true"
             android:hardwareAccelerated="true"
             android:screenOrientation="portrait" />
-        <activity android:name="com.shubhamgupta16.simplewallpaper.activities.MainActivity"
+        <activity android:name="com.link.statu.activities.MainActivity"
             android:exported="true"
             android:hardwareAccelerated="true"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan|stateHidden">
         </activity>
-        <activity android:name="com.shubhamgupta16.simplewallpaper.activities.WallpaperActivity"
+        <activity android:name="com.link.statu.activities.WallpaperActivity"
             android:exported="true"
             android:theme="@style/WallpaperTheme"
             android:hardwareAccelerated="true"

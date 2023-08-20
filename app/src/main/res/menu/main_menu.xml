@@ -12,6 +12,14 @@
         android:id="@+id/action_settings"
         android:title="@string/settings"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/btnMoreApps"
+        android:title="@string/more_apps"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_rate_us"
+        android:title="@string/rate_us"
+        app:showAsAction="never" />
 
     <item
         android:id="@+id/action_policy"
